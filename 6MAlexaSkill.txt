@@ -1,0 +1,33 @@
+
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "location",
+          "type": "AMAZON.US_CITY"
+        }
+      ],
+      "intent": "shabbatTimeIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+Sample Utterances: 
+shabbatTimeIntent What time does Shabbat start this week
+shabbatTimeIntent when does Shabbat start
+shabbatTimeIntent {date} in {location}
+shabbatTimeIntent {location} on {date}
+shabbatTimeIntent When is Shabbat this week
+shabbatTimeIntent give me Shabbat time for {date}
+shabbatTimeIntent what time is candle lighting in {location}
+shabbatTimeIntent when is candle lighting this week
+shabbatTimeIntent when is candle lighting
+shabbatTimeIntent when does Shabbat start on {date}
